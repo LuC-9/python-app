@@ -13,7 +13,8 @@ def details():
         "age": 30,
         "email": "john.doe@example.com",
         "time": datetime.datetime.now().isoformat(),
-        "hostname": socket.gethostname()
+        "hostname": socket.gethostname(),
+        "message": "Hello, Niggatron!"
     })
 
 @app.route('/api/v1/health')
