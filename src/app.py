@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/api/v1/details')
 def details():
     return jsonify({
-        "name": "John Doe",
+        "name": "John Nigga",
         "age": 30,
         "email": "john.doe@example.com",
         "time": datetime.datetime.now().isoformat(),
